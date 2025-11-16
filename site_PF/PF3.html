@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos - Semana Paulo Freire</title>
+  <link rel="icon" href="Sem título.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(135deg, #4e4e4e, #7a7a7a);
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    header h5 {
+      font-weight: 300;
+    }
+
+    nav.navbar {
+      background-color: #1d1c1d;
+    }
+
+    nav a.nav-link {
+      color: white !important;
+      font-weight: 600;
+      text-transform: uppercase;
+      transition: 0.3s;
+    }
+
+    nav a.nav-link:hover {
+      color: #d4af37 !important;
+    }
+
+    .banner {
+      background-color: #fff;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .banner h1 {
+      font-size: 2.2rem;
+      color: #000;
+      margin-bottom: 20px;
+    }
+
+    .banner p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      color: #555;
+    }
+
+    section {
+      padding: 50px 20px;
+      margin-bottom: 40px;
+    }
+
+    .evento-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: start;
+    }
+
+    .evento-text, .evento-image {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .evento-text h2 {
+      margin-bottom: 15px;
+      color: #1d1c1d;
+      font-weight: bold;
+    }
+
+    .evento-text p {
+      font-size: 1.1rem;
+      color: #444;
+    }
+
+    .evento-image img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #4e4e4e;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 0.95rem;
+      margin-top: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+ 
+  <header>
+    <h1>Eventos Escolares</h1>
+    <h5>Momentos marcantes da nossa comunidade estudantil</h5>
+  </header>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-uppercase" href="PF.html">Semana Paulo Freire</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="menu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="PF.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="PF2.html">Bibliografia</a></li>
+          <li class="nav-item"><a class="nav-link active" href="PF3.html">Eventos</a></li>
+          <li class="nav-item"><a class="nav-link" href="PF4.html">Sobre</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ 
+  <div class="banner">
+    <h1>Semana Cultural Paulo Freire</h1>
+    <p>Um evento escolar que une conhecimento, atividades fisicas e diálogo.</p>
+  </div>
+
+  <main class="container my-5">
+    <section class="evento-grid">
+      
+      <div class="evento-text">
+        <h2>Programação Principal</h2>
+        <p>
+          A Semana Paulo Freire acontece para homenagear e refletir sobre a vida, a obra e o legado do educador brasileiro Paulo Freire. O evento, frequentemente realizado em instituições de ensino como as Escolas Técnicas (ETECs) e universidades, busca disseminar seu pensamento crítico e libertador. 
+Neste semana acontecem atividades como: fut campo, futsal, rouba bandeira, vôlei xadrez, basquete, handball, Ping pong, queimada.
+
+Além dos esportes a instituição oferece outras atividades por exemplo, cante uma música, dança das cadeiras, sala brilhante, mala e cuia e soletrando.
+
+        </p>
+      </div>
+
+      
+      <div class="evento-image">
+        <img src="fotopf.jpeg" alt="" />
+      </div>
+
+      
+      <div class="evento-text">
+        <h2>Tabela de pontuação</h2>
+        <p>
+         1° C=230.760  <br>2° B=170.833  <br>3° V=167.106  <br>4° W=153.007  <br>5° A= 134.692 <br> 6° D=123.626  <br>7° E=122.722  <br>8° Z=75.788
+        </p>
+      </div>
+
+      <div class="evento-image">
+        <img src="campeoes pf.jpeg" alt="" />
+      </div>
+    </section>
+  </main>
+
+ 
+  <footer>
+    <p> 2025 - Semana Paulo Freire.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
